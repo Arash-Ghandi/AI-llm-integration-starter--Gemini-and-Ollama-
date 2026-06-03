@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+files/
+# Environment
+*.env
+.env
+credentials.json
+
+# Models — too large for git (download via Dockerfile)
+models/
+
+# Generated audio output
+/tmp/podcast_engine/
+
+# IDE
+.vscode/
+.idea/
+.venv
+.python-version
